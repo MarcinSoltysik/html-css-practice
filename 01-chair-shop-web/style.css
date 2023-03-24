@@ -1,3 +1,16 @@
+/* 
+main color: #087f5b
+grey color: #343a40
+
+
+
+info: 
+font-size: default = 16px = 1rem
+10px : 16px = 0.625 => 62.5%
+16px * 62.5% = 10px 
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +20,43 @@
 .container {
   width: 960px;
   margin: 0 auto;
+}
+
+/* GENERAL STYLES  */
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* font-size: 62.5%; */
+  color: #343a40;
+  border-bottom: 8px solid #087f5b;
+}
+
+/* .header,
+.features,
+.testimonial-section,
+.product-section {
+  margin-bottom: 96px;
+} */
+
+header,
+section {
+  margin-bottom: 96px;
+}
+
+h2 {
+  margin-bottom: 48px;
+  font-size: 36px;
+  letter-spacing: -0.5px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+/* footer STYLES  */
+footer {
+  font-size: 0.7rem;
+  text-align: center;
+  color: #000;
 }
