@@ -1,5 +1,3 @@
-#
-
 # notebook
 
 Notes from the tour-web project
@@ -25,11 +23,13 @@ Notes from the tour-web project
 - możesz też na początku projektu zrobić font dla całego projektu, już jest zaimportowany w html, a teraz w css, dajesz jego właściciwosci
 - dalczego w body - dlatego, aby w ramach dziedziczenia każdy nastepny elelemnt miał już to ustawione
 
-body {
-font-family: 'Lato', sans-serif;
-font-weight: 400;
-font-size: 16px;
-}
+- dziedziczenie :
+
+  body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  }
 
 ### How it's working
 
@@ -74,3 +74,61 @@ font-size: 16px;
    position: relative;
    position: absolute;
    stylowanie top, left, względem rodzica, dlatego tag ktory chdesz stylowac musi byc absolute ale kjego rodzic musi byc relative
+
+6. transform: translate(-50%, -50%);
+
+7. animacje
+
+- @keyframes moveInRight {
+  0% {
+  opacity: 0;
+  transform: translateX(100px);
+  }
+
+  80% {
+  transform: translateX(-15px);
+  }
+
+  100% {
+  opacity: 1;
+  transform: translate(0);
+  }
+  }
+
+  - animation-name: moveInRight;
+  - animation-duration: 3s;
+  - animation-timing-function: ease-out;
+    // zobacz jeszcze animation-timing-function: ease-in;
+
+8. stylowanie LINKÓW <a href> // button
+
+   /_ button _/
+
+- pseudo-classes
+
+  .btn:link,
+  .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block; // stylujesz link, a on jest inline
+  border-radius: 100px;
+  transition: all 0.2s; // to daje zwolnienei ruchu
+  }
+
+  .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); // masz pojawia sie cien jak jest najechany
+  }
+
+  .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); // ten coien przy wcisnieciu sie zmniejsza daje efek klikania
+  }
+
+  .btn-white {
+  background-color: #fff;
+  color: #777;
+  }
+
+- pseudo element
