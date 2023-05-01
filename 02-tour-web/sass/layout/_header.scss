@@ -1,0 +1,59 @@
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url(img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  height: 95vh;
+  position: relative;
+
+  &__logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  &__logo--img {
+    height: 35px;
+  }
+
+  &__box-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &-title {
+    color: $color-white;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+
+  &-title--main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 36px;
+
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+  }
+
+  &-title--sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+
+    animation-name: moveInRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+  }
+}
