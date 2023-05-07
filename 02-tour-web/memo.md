@@ -19,6 +19,28 @@ What I do and what I learn
 section-tours
 \_card.scss
 
+##### rotating card
+
+.card {
+perspective: 150rem;
+
+&\_\_side {
+background-color: orangered;
+color: #fff;
+font-size: 2rem;
+height: 50rem;
+transition: all 0.8s;
+}
+
+&:hover &\_\_side {
+transform: rotateY(180deg);
+}
+}
+
+//
+// section-features
+//
+
 #### section-features
 
 - icon font
@@ -245,3 +267,6 @@ How calc()works and what's the difference between calc() and simple Sass operati
   }
 
 - pseudo element
+
+// section-tours
+// git commit -m 'feat(tour-web): Add '
