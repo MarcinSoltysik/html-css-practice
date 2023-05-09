@@ -262,6 +262,3 @@ How calc()works and what's the difference between calc() and simple Sass operati
 
 // section-tours
 // git commit -m 'feat(tour-web): Add '
-
-// box-decoration-break:
-// background blend modes
