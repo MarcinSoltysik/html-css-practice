@@ -29,6 +29,9 @@ perspective: 150rem;
 transform: rotateY(180deg);
 backface-visibility: hidden;
 
+- background blend modes
+  background-blend-mode: screen;
+
 #### section-features
 
 - icon font
