@@ -21,25 +21,13 @@ section-tours
 
 ##### rotating card
 
-.card {
+- how to build rotating card
+- how to use perspective in css
+- back-face-visibility property
+
 perspective: 150rem;
-
-&\_\_side {
-background-color: orangered;
-color: #fff;
-font-size: 2rem;
-height: 50rem;
-transition: all 0.8s;
-}
-
-&:hover &\_\_side {
 transform: rotateY(180deg);
-}
-}
-
-//
-// section-features
-//
+backface-visibility: hidden;
 
 #### section-features
 
