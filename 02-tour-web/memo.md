@@ -8,6 +8,12 @@ What I do and what I learn
 
 ### How it's working
 
+#### section-stories
+
+- tex flow around shapes: shape-outside, float
+- filter to iamges
+- background video
+
 #### section-tours
 
 - how to build rotating card
