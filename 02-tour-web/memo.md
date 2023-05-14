@@ -11,8 +11,25 @@ What I do and what I learn
 #### section-stories
 
 - tex flow around shapes: shape-outside, float
-- filter to iamges
+- filter to images
 - background video
+
+- tex flow around shapes: shape-outside, float
+  shape-outside: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  transform: translateX(-3rem) skewX(12deg);
+
+- filter to images
+  filter: blur(3px) brightness(80%);
+
+- background video
+  <video class="bg-video__content" autoplay muted loop>
+  <source src="/img/video.mp4" type="video/mp4" />
+  <source src="/img/video.webm" type="video/webm" />
+  Your browser is not supported!
+  </video>
+
+  object-fit: cover;
 
 #### section-tours
 
