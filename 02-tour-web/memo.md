@@ -10,6 +10,9 @@ What I do and what I learn
 
 #### section-stories
 
+
+
+
 - tex flow around shapes: shape-outside, float
 - filter to images
 - background video
