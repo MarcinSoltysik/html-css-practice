@@ -71,3 +71,21 @@ form div i {
   right: 0;
   opacity: 0;
 }
+/* style submit button */
+
+.btn-submit {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #f2796e;
+  border: 2px solid #f2796e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+.btn-submit:hover {
+  opacity: 0.8;
+}
