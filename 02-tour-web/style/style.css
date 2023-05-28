@@ -411,6 +411,18 @@ body {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
+.footer {
+  background-color: #333;
+  padding: 10rem 0;
+  font-size: 1.4rem; }
+  .footer__logo-box {
+    text-align: center; }
+  .footer__logo {
+    width: 15rem;
+    height: auto; }
+  .footer__copyright {
+    color: #fff; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
