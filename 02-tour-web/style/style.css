@@ -541,6 +541,17 @@ body {
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
+.navigation__button {
+  background-color: #fff;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  border-radius: 50%;
+  z-index: 2000;
+  border: 1px solid orange; }
+
 .navigation__background {
   height: 6rem;
   width: 6rem;
