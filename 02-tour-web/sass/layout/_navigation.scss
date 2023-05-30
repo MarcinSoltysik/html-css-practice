@@ -1,5 +1,6 @@
 .navigation {
   &__checkbox {
+    opacity: 0;
   }
 
   &__button {
@@ -79,6 +80,8 @@
       transform: translateX(1rem);
     }
   }
+
+  // FUNCTIONALITY
   &__checkbox:checked ~ &__background {
     transform: scale(80);
   }
