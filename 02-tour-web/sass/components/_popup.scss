@@ -38,5 +38,10 @@
     column-count: 2;
     column-gap: 4rem;
     column-rule: 2px solid $color-grey-light-2;
+
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
   }
 }

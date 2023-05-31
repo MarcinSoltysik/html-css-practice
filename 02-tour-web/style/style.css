@@ -400,7 +400,11 @@ body {
     text-align: justify;
     column-count: 2;
     column-gap: 4rem;
-    column-rule: 2px solid #eee; }
+    column-rule: 2px solid #eee;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto; }
 
 .story {
   width: 75%;
