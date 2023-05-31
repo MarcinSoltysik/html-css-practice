@@ -1,3 +1,23 @@
+/*
+0-600px;      Phone, 
+600 - 900px;  Tablet portrait
+900-1200px;   Tablet landscape
+1200-1800;    is where our normal styles applay
+1800px+;      Big desktop
+
+$breakpoint argument choices: 
+
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+1em = 16px
+600/16 = 37.5 em
+900/16 = 56.25em
+1200/16 = 75em
+1800/16 = 112.5em
+*/
 /* animacja */
 @keyframes moveInLeft {
   0% {
@@ -36,6 +56,18 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 60%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 112.5em) {
+    html {
+      font-size: 80%; } }
 
 body {
   box-sizing: border-box; }
