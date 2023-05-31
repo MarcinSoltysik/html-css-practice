@@ -397,7 +397,10 @@ body {
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-    text-align: justify; }
+    text-align: justify;
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 2px solid #eee; }
 
 .story {
   width: 75%;

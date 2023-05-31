@@ -10,7 +10,6 @@
   &__content {
     @include absCenter;
     width: 75%;
-    // height: 50rem;
     background-color: $color-white;
     box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
     border-radius: 3px;
@@ -20,12 +19,10 @@
 
   &__left {
     width: 33.3333%;
-    // float: left;
     display: table-cell;
   }
   &__right {
     width: 66.6666%;
-    // float: left;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
@@ -38,5 +35,8 @@
     font-size: 1.4rem;
     margin-bottom: 4rem;
     text-align: justify;
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 2px solid $color-grey-light-2;
   }
 }
