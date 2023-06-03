@@ -690,10 +690,10 @@ body {
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
-  @media (max-width: 56.25em) {
+  @media (max-width: 75em) {
     .header {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 95%);
-      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 95%); } }
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 85%);
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 85%); } }
   @media (max-width: 37.5em) {
     .header {
       margin-bottom: 5rem; } }
