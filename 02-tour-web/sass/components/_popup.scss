@@ -80,3 +80,12 @@
     }
   }
 }
+
+.popup__img-1 {
+  @include respond(tab-land) {
+    margin-top: 4rem;
+  }
+  @include respond(tab-port) {
+    margin-top: 12rem;
+  }
+}
