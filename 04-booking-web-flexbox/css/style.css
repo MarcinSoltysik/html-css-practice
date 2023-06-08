@@ -178,15 +178,18 @@ body {
     width: 3px;
     background-color: var(--color-primary);
     transform: scaleY(0);
-    transition: transform 1s; }
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s; }
   .side-nav__item:hover::before {
-    transform: scaleY(1); }
+    transform: scaleY(1);
+    width: 100%; }
   .side-nav__link:link, .side-nav__link:visited {
     color: var(--color-grey-light-1);
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     padding: 1.5rem 3rem;
+    position: relative;
+    z-index: 10;
     display: flex;
     align-items: center; }
   .side-nav__icon {

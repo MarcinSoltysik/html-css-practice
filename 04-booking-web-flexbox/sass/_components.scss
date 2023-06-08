@@ -144,11 +144,12 @@
     width: 3px;
     background-color: var(--color-primary);
     transform: scaleY(0);
-    transition: transform 1s;
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
   }
 
   &__item:hover::before {
     transform: scaleY(1);
+    width: 100%;
   }
 
   &__link:link,
@@ -158,6 +159,9 @@
     text-transform: uppercase;
     display: block;
     padding: 1.5rem 3rem;
+
+    position: relative;
+    z-index: 10;
     display: flex;
     align-items: center;
   }
