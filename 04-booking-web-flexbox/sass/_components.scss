@@ -143,6 +143,12 @@
     height: 100%;
     width: 3px;
     background-color: var(--color-primary);
+    transform: scaleY(0);
+    transition: transform 1s;
+  }
+
+  &__item:hover::before {
+    transform: scaleY(1);
   }
 
   &__link:link,
