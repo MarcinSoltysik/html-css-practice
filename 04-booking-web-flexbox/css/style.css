@@ -64,7 +64,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: var(--color-white);
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -213,7 +213,8 @@ body {
     display: block; }
 
 .overview {
-  display: flex; }
+  display: flex;
+  border-bottom: 1px solid var(--color-grey-light-2); }
   .overview__starts {
     background-color: yellowgreen;
     margin-right: auto; }
