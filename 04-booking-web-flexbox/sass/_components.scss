@@ -204,15 +204,45 @@
   }
 }
 
-// overview
-// overview__heading
-// overview__starts
-// overview__icon-star
+////////////////////
+// HOTEL OVERVIEW
 
-// overview__location
-// overview__icon-location
+.overview {
+  display: flex;
+  // justify-content: space-between;
+  &__heading {
+  }
+  &__starts {
+    background-color: yellowgreen;
+    // flex: 1;
+    margin-right: auto;
+  }
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+  &__location {
+  }
+
+  &__rating {
+  }
+  &__rating-average {
+  }
+  &__rating-count {
+  }
+}
+
+// __heading
+// __starts
+// __icon-star
+
+// __location
+// __icon-location
+
+// __rating
+// __rating-average
+// __rating-count
+
 // btn-inline
-
-// overview__rating
-// overview__rating-average
-// overview__rating-count
