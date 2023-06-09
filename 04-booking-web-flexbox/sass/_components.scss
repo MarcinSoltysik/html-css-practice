@@ -116,12 +116,6 @@
 ////////////////////
 // SIDE NAVIGATION
 
-// .sidebar
-// .side-nav
-// .side-nav__item
-// .side-nav__link
-// .side-nav__icon
-
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
@@ -240,15 +234,25 @@
   }
 }
 
-// __heading
-// __starts
-// __icon-star
+////////////////////
+// BUTTON INLINE
 
-// __location
-// __icon-location
+.btn-inline {
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
 
-// __rating
-// __rating-average
-// __rating-count
+  &:hover {
+    color: var(--color-grey-dark-1);
+  }
 
-// btn-inline
+  &:focus {
+    outline: none;
+  }
+}
