@@ -344,9 +344,13 @@ body {
   background-color: var(--color-white);
   box-shadow: var(--shadow-light);
   padding: 3rem;
-  margin-bottom: 3.5rem; }
+  margin-bottom: 3.5rem;
+  position: relative;
+  overflow: hidden; }
   .reviews__text {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    z-index: 10;
+    position: relative; }
   .reviews__user {
     display: flex;
     align-items: center; }
@@ -369,3 +373,13 @@ body {
     color: var(--color-primary);
     font-size: 2.2rem;
     font-weight: 300; }
+  .reviews::before {
+    content: '\201C';
+    position: absolute;
+    top: -2.75rem;
+    left: -1rem;
+    line-height: 1;
+    font-size: 20rem;
+    font-family: sans-serif;
+    color: var(--color-grey-light-2);
+    z-index: 1; }
