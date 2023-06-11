@@ -86,13 +86,13 @@ body {
   flex: 1; }
 
 .detail {
+  font-size: 1.4rem;
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
   border-bottom: 1px solid var(--color-grey-light-2); }
 
 .descriptions {
-  font-size: 1.4rem;
   background-color: var(--color-white);
   box-shadow: var(--shadow-light);
   padding: 3rem;
@@ -100,7 +100,6 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
-  background-color: yellowgreen;
   flex: 1; }
 
 .logo {
@@ -340,3 +339,33 @@ body {
     border: 3px solid var(--color-white); }
     .recommend__photo:not(:last-child) {
       margin-right: -1.5rem; }
+
+.reviews {
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin-bottom: 3.5rem; }
+  .reviews__text {
+    margin-bottom: 2rem; }
+  .reviews__user {
+    display: flex;
+    align-items: center; }
+  .reviews__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    margin-right: 1.5rem; }
+  .reviews__user-box {
+    margin-right: auto; }
+  .reviews__user-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem; }
+  .reviews__user-date {
+    font-size: 1rem;
+    color: var(--color-grey-dark-3); }
+  .reviews__rating {
+    color: var(--color-primary);
+    font-size: 2.2rem;
+    font-weight: 300; }
