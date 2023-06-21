@@ -9,18 +9,24 @@
 
 .home {
   background-color: $color-grey-light-1;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
   &__img {
     width: 100%;
+    grid-column: 1 / -1;
   }
 
-  // &__like {
-  // }
-  // &__name {
-  // }
+  &__like {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    fill: $color-primary;
+    height: 2rem;
+    width: 2rem;
+  }
+  &__name {
+    grid-column: 1 / -1;
+  }
 
   &__location,
   &__rooms,
@@ -31,7 +37,11 @@
       height: 2rem;
       width: 2rem;
     }
-    // p {
-    // }
+    p {
+    }
+  }
+
+  &__btn {
+    grid-column: 1 / -1;
   }
 }
