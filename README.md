@@ -21,7 +21,7 @@ I hope to track my progress and gain new insights that will help me achieve my g
 
 06. [Animated Card](https://github.com/MarcinSoltysik/practice-layouts/tree/main/06-n3m0-animated-cards)
 
-![Uploading ezgif.com-video-to-gif.gif…]()
+![ezgif com-video-to-gif](https://github.com/MarcinSoltysik/practice-layouts/assets/78354700/1d6b5436-edd4-481c-b08c-7586d9f60ee7)
 
 
 
