@@ -19,6 +19,12 @@ I hope to track my progress and gain new insights that will help me achieve my g
 
 ## My projects
 
+06. [Animated Card](https://github.com/MarcinSoltysik/practice-layouts/tree/main/06-n3m0-animated-cards)
+
+![Uploading ezgif.com-video-to-gif.gif…]()
+
+
+
 01. [Chair Shop Web](https://github.com/MarcinSoltysik/practice-layouts/tree/main/01-chair-shop-web)
 
 ![chair-shop-web](https://user-images.githubusercontent.com/78354700/229216913-8d83eeb9-a7ab-4cee-8802-7637d4dea4ab.png)
